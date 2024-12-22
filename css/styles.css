@@ -1320,3 +1320,11 @@ blockquote {
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
 }
+.form-floating {
+  display: block; /* Ensures each form element takes the full width */
+  margin-bottom: 15px; /* Adds space between form elements */
+}
+
+.form-control {
+  width: 100%; /* Ensures the input takes the full width of the container */
+}
