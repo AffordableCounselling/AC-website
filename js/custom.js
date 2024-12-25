@@ -49,5 +49,16 @@
     });
   
   })(window.jQuery);
+// JavaScript for adding hover effect
+document.addEventListener("DOMContentLoaded", function() {
+  const heading = document.querySelector("h1");
 
+  heading.addEventListener("mouseover", function() {
+      heading.classList.add("hover-effect");
+  });
+
+  heading.addEventListener("mouseout", function() {
+      heading.classList.remove("hover-effect");
+  });
+});
 
