@@ -1284,7 +1284,7 @@ blockquote {
 
 /* Base styles for the heading */
 h1 {
-  font-size: 4rem; /* Adjust font size */
+  font-size: 3.5rem; /* Adjust font size */
   text-align: center; /* Center the text */
   color: #333; /* Initial color */
   transition: all 0.4s ease; /* Smooth transition for all properties */
