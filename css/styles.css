@@ -731,7 +731,7 @@ blockquote {
 
 .timeline-container .vertical-scrollable-timeline .list-progress {
   width: 8px;
-  height: 95%;
+  height: 97.2%;
   background-color: var(--primary-color);
   position: absolute;
   left: 52px;
@@ -1366,6 +1366,7 @@ h1:hover {
 .pricing p, ul{
   text-align: left;
   margin-left: 5%;
+  margin-right: 5%;
 }
 .pricing h1{
   text-align: center;
