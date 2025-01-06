@@ -380,7 +380,7 @@ strong {
   border: 0;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1920px) {
   .navbar .dropdown:hover .dropdown-menu {
     opacity: 1;
     margin-top: 0;
@@ -1028,153 +1028,41 @@ blockquote {
 }
 
 
-/*---------------------------------------
-  RESPONSIVE STYLES               
------------------------------------------*/
-@media screen and (max-width: 991px) {
-  h1 {
-    font-size: 48px;
-  }
 
-  h2 {
-    font-size: 36px;
-  }
 
-  h3 {
-    font-size: 32px;
-  }
-
-  h4 {
-    font-size: 28px;
-  }
-
-  h5 {
-    font-size: 20px;
-  }
-
-  h6 {
-    font-size: 18px;
-  }
-
-  .section-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .navbar {
-    background-color: var(--secondary-color);
-  }
-
-  .navbar-nav .dropdown-menu {
-    position: relative;
-    left: 10px;
-    opacity: 1;
-    pointer-events: auto;
-    max-width: 155px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
-
-  .navbar-expand-lg .navbar-nav {
-    padding-bottom: 20px;
-  }
-
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0;
-  }
-
-  .nav-tabs .nav-link:first-child {
-    margin-right: 5px;
-  }
-
-  .nav-tabs .nav-link {
-    font-size: var(--copyright-font-size);
-    padding: 10px;
-  }
-
-  .featured-section {
-    border-radius: 0 0 80px 80px;
-    padding-bottom: 50px;
-  }
-
-  .custom-block-topics-listing .custom-block-image {
-    width: auto;
-  }
-
-  .custom-block-topics-listing > .d-flex,
-  .custom-block-topics-listing-info,
-  .custom-block-topics-listing a {
-    flex-direction: column;
-  }
-
-  .timeline-container .vertical-scrollable-timeline .list-progress {
-    height: 75%;
-  }
-
-  .timeline-container .vertical-scrollable-timeline li {
-    padding-left: 135px;
-  }
-
-  .subscribe-form-wrap {
-    padding-top: 30px;
-    padding-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 36px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 26px;
-  }
-
-  h4 {
-    font-size: 22px;
-  }
-
-  h5 {
-    font-size: 20px;
-  }
-}
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
 
 /* Mobile Devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   h1 {
     font-size: 36px;
-    margin: 15px 0; /* Added margin for spacing */
+    margin: 15px 0; 
   }
 
   h2 {
     font-size: 28px;
-    margin: 10px 0; /* Added margin for spacing */
+    margin: 10px 0; 
   }
 
   h3 {
     font-size: 26px;
-    margin: 10px 0; /* Added margin for spacing */
+    margin: 10px 0; 
   }
 
   h4 {
     font-size: 22px;
-    margin: 10px 0; /* Added margin for spacing */
+    margin: 10px 0; 
   }
 
   h5 {
     font-size: 20px;
-    margin: 10px 0; /* Added margin for spacing */
+    margin: 10px 0; 
   }
 
   .navbar {
-    padding: 10px; /* Added padding for better spacing */
+    padding: 10px; 
   }
 
   .contact-section {
@@ -1187,20 +1075,20 @@ blockquote {
 }
 
 /* Tablets */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   h1 {
     font-size: 48px;
-    margin: 20px 0; /* Added margin for spacing */
+    margin: 20px 0; 
   }
 
   h2 {
     font-size: 36px;
-    margin: 15px 0; /* Added margin for spacing */
+    margin: 15px 0; 
   }
 
   .navbar {
     background-color: var(--secondary-color);
-    padding: 10px; /* Added padding for better spacing */
+    padding: 10px; 
   }
 
   .featured-section {
@@ -1215,7 +1103,7 @@ blockquote {
 }
 
 /* Desktops */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1920px) {
   h1 {
     font-size: 58px;
   }
@@ -1229,7 +1117,7 @@ blockquote {
   }
 
   .contact-section {
-    padding: 50px 0; /* Add padding for desktop */
+    padding: 50px 0; 
   }
 
   .google-map {
